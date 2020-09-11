@@ -1,0 +1,11 @@
+credentials        = "./gcpcmdlineuser.json"
+project_id         = "everis1"
+region             = "us-central1"
+zones              = ["us-central1-a"]
+name               = "gke-cluster"
+machine_type       = "g1-small"
+min_count          = 1
+max_count          = 1
+disk_size_gb       = 10
+service_account    = "gcpcmdlineuser@everis1.iam.gserviceaccount.com"
+initial_node_count = 1

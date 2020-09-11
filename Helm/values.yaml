@@ -1,0 +1,12 @@
+---
+replicaCount: 1
+
+image:
+  repository: gcr.io/everis1/app
+  pullPolicy: Always
+
+service:
+  type: LoadBalancer
+  port: 80
+
+app_port: 8080
